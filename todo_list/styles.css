@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.todo {
+  background-color: #ffe4e1;
+  color: #8b008b;
+  font-size: 48px;
+  border-radius: 5px;
+}
+
+.item_list {
+  list-style: square;
+  font-size: 24px;
+  align-items: center;
+}
+
+.item {
+  border-style: outset;
+  justify-content: space-between;
+}
+
+.add {
+  background-color: #ffe4e1;
+}
+
+.listadd {
+  size: 40;
+}
