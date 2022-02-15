@@ -13,16 +13,22 @@ body {
 }
 
 .todo {
-  background-color: #ffe4e1;
+  height: 48px;
+  padding: 8px;
+  background: #ffe4e1;
   color: #8b008b;
-  font-size: 48px;
+  font-size: 36px;
   border-radius: 5px;
 }
 
 .item_list {
+  width: 400px;
   list-style: square;
   font-size: 24px;
   align-items: center;
+  margin: auto;
+  background-color: #f1f0f7;
+  border-radius: 20px;
 }
 
 .item {
